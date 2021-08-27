@@ -15,7 +15,7 @@ Adobe After effects outputs a big set of absolute coordinates based on your vide
 The structure is:
 linenumber  X    Y 
 
-The script reads these from the .txt file provided and using some basic math converts them from absolute coordinates to relative offset to your mouse cursor. The rest is identical to other ahk scripts. 
+The script reads these from the .txt file provided and using some basic math converts them from absolute coordinates to relative offset in reference to your mouse cursor. The rest is identical to other ahk scripts in principle. 
 To determine the waiting time between the mouse movements the overall firing time of the weapon gets divided by the amount of lines in the tracked pattern.txt
 What is different is the fact that this script doesn’t do one mouse movement per bullet.
 
