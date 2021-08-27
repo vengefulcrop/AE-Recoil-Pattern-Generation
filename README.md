@@ -22,5 +22,6 @@ What is different is the fact that this script doesn’t do one mouse movement p
 By setting 	out2txt := 0 	to 1, the script will automatically convert the raw After Effects pattern into the format used by old scripts. 
 
 !WARNING!
+
 The following concerns the usage of old scripts that have recoil patterns embedded. 
 Due to the nature of the tracked patterns (After Effects scans video frames one-by-one and writes down any changes between them, resulting in up to 60 entries (read "potential mouse movements") per second, such amount of data exceeds the ahk per-expresseion limit and in order to avoid that the script should load the pattern from an external .txt, instead of having it as part of the main script itself. This has to be coded in, obviously. 
