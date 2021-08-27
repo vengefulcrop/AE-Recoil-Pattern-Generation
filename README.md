@@ -18,7 +18,7 @@ linenumber  X    Y
 The script reads these from the .txt file provided and using some basic math converts them from absolute coordinates to relative offset in reference to your mouse cursor. The rest is identical to other ahk scripts in principle. 
 To determine the waiting time between the mouse movements the overall firing time of the weapon gets divided by the amount of lines in the tracked pattern.txt
 
-What is different is the fact that this script doesn’t do just one mouse movement per bullet, as old scripts did. It's neither better or worse, but it might be providing higher precision at the cost of sending a few times more mouse inputs. 
+What is different is the fact that this script doesn’t do just one mouse movement per bullet, as old scripts did. It's neither ultimately better or worse, but it might be providing higher precision at the cost of sending a few times more mouse inputs. 
 
 By setting 	out2txt := 0 	to 1, the script will automatically convert the raw After Effects pattern into the format used by old scripts. 
 
