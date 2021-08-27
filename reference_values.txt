@@ -1,0 +1,8 @@
+
+	weapon	wpmaxt	cmodx	cmody
+	
+	havoc	3.78	0.58	0.78
+	flatline	2.97	0.58	0.58
+	devo	3.90	0.68	0.85
+	r301	2.06	0.53	0.67
+	volt	2.08	0.82	0.82
