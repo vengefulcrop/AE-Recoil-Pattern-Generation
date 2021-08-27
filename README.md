@@ -13,7 +13,7 @@ How does the script work from start to finish:
 Adobe After effects outputs a big set of absolute coordinates based on your video resolution and framerate - 1080p 60 fps in this case.
 
 The structure is:
-line number  X    Y 
+linenumber  X    Y 
 
 The script reads these from the .txt file provided and using some basic math converts them from absolute coordinates to relative offset to your mouse cursor. The rest is identical to other ahk scripts. 
 To determine the waiting time between the mouse movements the overall firing time of the weapon gets divided by the amount of lines in the tracked pattern.txt
@@ -24,4 +24,5 @@ By setting 	out2txt := 0 	to 1, the script will automatically convert the raw Af
 !WARNING!
 
 The following concerns the usage of old scripts that have recoil patterns embedded. 
+
 Due to the nature of the tracked patterns (After Effects scans video frames one-by-one and writes down any changes between them, resulting in up to 60 entries (read "potential mouse movements") per second, such amount of data exceeds the ahk per-expresseion limit and in order to avoid that the script should load the pattern from an external .txt, instead of having it as part of the main script itself. This has to be coded in, obviously. 
