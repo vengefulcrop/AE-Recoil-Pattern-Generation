@@ -1,4 +1,7 @@
 # AE-Recoil-Pattern-Generation
+
+READ THE FULL TUTORIAL HERE https://www.unknowncheats.me/forum/apex-legends/467406-method-generating-recoil-patterns-ahk-script-development-testing.html
+
 Prerequisites: 
 To create and edit your own patterns, you need to have a modern version of Adobe After Effects installed, as well as ahk itself, in addition to at least basic level knowledge of AHK scripting.
 
