@@ -46,11 +46,14 @@ Loop, Read, patterns/Flatline.txt
 	fincmodx := cmodx
 	fincmody := cmody
 	
+	
 	rampxstart := 80
 	rampxend := lmax
 	rampxcmod := 0.5
+	
 	rampxcmodsub := rampxcmod - cmodx
 	rampxstep := rampxcmodsub /((lmax - rampxstart) - (lmax - rampxend))
+	
 	
 	rampystart := 60
 	rampyend := lmax
