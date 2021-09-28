@@ -30,8 +30,8 @@ Loop, Read, patterns/Flatline.txt
 	cmody := 0.72			;values around 0.5-0.8 seem to work best for 5.3 sens
 
 ;controls and switches	
-	rampx := 1	
-	rampy := 1			
+	rampx := 0	
+	rampy := 0			
 	out2txt := 0 																	;if set to 1 - output resulting calculations to a standart pattern array usable with existing scripts and save as txt
 	oldout := 0																		;if set to 1, the script outputs in the old script format ("pointnumber:"x,y,t""), else - the new one (x,y,t)	
 	outputfile  := "outputpattern.txt"												;output file name, can create a new file if it didn't exist, can override an existing file but will make it messy
